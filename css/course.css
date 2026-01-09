@@ -27,9 +27,9 @@ body {
 }
 
 .card:hover {
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-  transition: translate(0.3s);
-  transform: translate(-12px) rgba(0,0,0,0,18);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.256);
+  transform: translateY(-8px)scale(1.03);
+  color: #111;
 }
 
 .card-img {
@@ -100,6 +100,26 @@ button {
 button:hover {
   background: #333;
 }
+.btn-center {
+  
+}
+.btn {
+  display:block;
+  text-decoration: none;
+  background: #111;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+  width: fit-content;
+}
+
+.btn:hover {
+  background: #333;
+  transform: translateY(-2px);
+}
+
 
 @media (max-width: 768px) {
   .card-container {
