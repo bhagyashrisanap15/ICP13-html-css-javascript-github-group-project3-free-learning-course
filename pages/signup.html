@@ -20,6 +20,33 @@
 
     <img src="./images/hamburger.png" class="hamburger-icon" onclick="toggleMenu()" />
   </div>
+   
+  <div class="main-container">
+    <div class="left-panel">
+      <h1>Join SkillSprout 🌱</h1>
+      <p>Learn, grow and build your future.</p>
+    </div>
 
+    <div class="right-panel">
+      <h2>Create Account</h2>
+
+      <form>
+        <input type="text" placeholder="👤 Full Name" required>
+        <input type="email" placeholder="📧 Email Address" required>
+
+        <div class="password-box">
+          <input type="password" id="pass1" placeholder="🔒 Password" required>
+          <span onclick="togglePassword('pass1')">👁️</span>
+        </div>
+
+        <div class="password-box">
+          <input type="password" id="pass2" placeholder="🔐 Confirm Password" required>
+          <span onclick="togglePassword('pass2')">👁️</span>
+        </div>
+
+        <button type="submit">Create Account</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
