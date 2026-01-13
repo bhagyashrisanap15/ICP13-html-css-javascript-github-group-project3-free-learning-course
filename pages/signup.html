@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup | SkillSprout</title>
-    <style>
-        * {
+  <meta charset="UTF-8">
+  <title>Signup | SkillSprout</title>
+
+  <style>
+    * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -16,7 +16,9 @@
       min-height: 100vh;
       background: linear-gradient(135deg, #ddb892, #ede0d4);
     }
-     .logo {
+
+   
+    .logo {
       height: 45px;
       margin-right: 15px;
     }
@@ -70,6 +72,7 @@
       cursor: pointer;
     }
 
+ 
     .main-container {
       width: 800px;
       height: 430px;
@@ -149,6 +152,8 @@
     form button:hover {
       background: #9c6644;
     }
+
+   
     .footer {
       background-color: #ffe4cc;
       border-top: 2px solid #d9d9d9;
@@ -222,7 +227,9 @@
       font-size: 14px;
       color: #666;
     }
-     @media (max-width: 900px) {
+
+   
+    @media (max-width: 900px) {
       .main-container {
         flex-direction: column;
         width: 90%;
@@ -257,10 +264,13 @@
         justify-content: center;
       }
     }
-    </style>
+  </style>
 </head>
+
 <body>
-    <div class="app-title">
+
+  
+  <div class="app-title">
     <img class="logo" src="./images/logo.png" />
     <h2 class="title">SkillSprout</h2>
 
@@ -274,7 +284,8 @@
 
     <img src="./images/hamburger.png" class="hamburger-icon" onclick="toggleMenu()" />
   </div>
-   
+
+
   <div class="main-container">
     <div class="left-panel">
       <h1>Join SkillSprout 🌱</h1>
@@ -302,6 +313,8 @@
       </form>
     </div>
   </div>
+
+ 
   <footer class="footer">
     <div class="footer-container">
 
@@ -347,7 +360,8 @@
       © 2026 SkillSprout. All Rights Reserved.
     </div>
   </footer>
-<script>
+
+  <script>
     function toggleMenu() {
       document.querySelector(".navbar").classList.toggle("show");
     }
@@ -356,6 +370,7 @@
       const input = document.getElementById(id);
       input.type = input.type === "password" ? "text" : "password";
     }
-</script>
+  </script>
+
 </body>
 </html>
