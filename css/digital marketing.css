@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f7fa;
+}
+
+.hero {
+  padding: 50px 40px;
+  background: #eef3fc;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background: #0056d2;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #0056d2;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.course-info-container {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  max-width: 1200px;
+  margin: auto;
+}
+
+.info-box {
+  flex: 1;
+  padding: 0 15px;
+  border-right: 1px solid #e6e6e6;
+}
+
+.info-box:last-child {
+  border-right: none;
+}
+
+.info-box h3 {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 6px;
+}
+
+.info-box p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.nav {
+      background: white;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav a {
+      margin-right: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      color: #555;
+    }
+
+    .nav a:hover {
+      color: #0056d2;
+    }
+
+    /* Sections */
+    section {
+      background: white;
+      margin: 20px;
+      padding: 30px;
+      border-radius: 8px;
+    }
+
+.content {
+  padding: 40px;
+  background: white;
+}
+
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+}
+
+.skills span {
+  display: inline-block;
+  background: #e7efff;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.accordion-header {
+  padding: 15px;
+  background: #f1f3f6;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.accordion-body {
+  display: none;
+  padding: 15px;
+  background: #ffffff;
+  border-left: 3px solid #0056d2;
+}
+.rating-bars div {
+  margin: 8px 0;
+}
+
+.bar {
+  display: inline-block;
+  width: 200px;
+  height: 8px;
+  background: #ddd;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.bar span {
+  display: block;
+  height: 100%;
+  background: #0056d2;
+  border-radius: 5px;
+}
+
+.review-card {
+  background: #f1f3f6;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 6px;
+}
