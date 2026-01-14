@@ -1,12 +1,21 @@
-function showTab(id, el) {
-  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+function showSection(id) {
+  document.querySelectorAll('.section').forEach(sec => {
+    sec.classList.remove('active');
+  });
+
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.classList.remove('active');
+  });
 
   document.getElementById(id).classList.add('active');
-  el.classList.add('active');
+  event.target.classList.add('active');
 }
 
-function toggle(header) {
+function toggleAccordion(header) {
   const body = header.nextElementSibling;
   body.style.display = body.style.display === "block" ? "none" : "block";
 }
+function toggleMenu() {
+        document.querySelector(".navbar").classList.toggle("show");
+    }
+

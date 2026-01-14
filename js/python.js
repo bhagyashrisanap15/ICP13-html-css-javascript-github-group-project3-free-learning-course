@@ -15,3 +15,7 @@ function toggleAccordion(header) {
   const body = header.nextElementSibling;
   body.style.display = body.style.display === "block" ? "none" : "block";
 }
+function toggleMenu() {
+        document.querySelector(".navbar").classList.toggle("show");
+    }
+

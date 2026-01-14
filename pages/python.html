@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Python for Data Science, AI & Development</title>
-    <link rel="stylesheet" href="..\css\python.css">
-</head>
-<body>
-    
 
-<section class="hero">
-   <div class="hero-text">
-    <h1>Python for Data Science, AI & Development</h1>
-    <p class="instructor">Instructor: <b>xyz</b></p>
-    <button class="enroll">Enroll for Free</button>
+<head>
+  <meta charset="UTF-8">
+  <title>Python for Data Science, AI & Development</title>
+  <link rel="stylesheet" href="..\css\python.css">
+</head>
+
+<body>
+ <div class="app-title">
+    <img class="logo" src="../images/logo.png"/>
+    <h2 class="title">SkillSprout</h2>
+    <div class="navbar">
+    <a class="nav-item" href="..\index.html">Home</a>
+    <a class="nav-item"  href="course.html">Courses</a>
+    <a class="nav-item" href="todo.html">To-Do</a>
+    <a class="nav-item" href="notes.html">Notes</a>
+    <button class="btn" >Log in</button>
     </div>
-    </section>
-  <br><br><br>
-    <div class="course-info-container">
+    <img src="../images/hamburger.png" class="hamburger-icon" onclick="toggleMenu()">
+    </div>
+
+  <section class="main">
+    <div class="main-text">
+      <h1>Python for Data Science, AI & Development</h1><br>
+      <p class="instructor">Instructor: <b>xyz</b></p><br>
+      <button class="btn-primary">Enroll for Free</button>
+    </div>
+  </section>
+  <br><br>
+  <div class="course-info-container">
 
     <div class="info-box">
       <h3>6 modules</h3>
@@ -44,96 +57,174 @@
     </div>
 
   </div>
-</section>
-<br>
-<section>
-<div class="nav">
-    <a href="#about">About</a>
-    <a href="#outcomes">Outcomes</a>
-    <a href="#modules">Modules</a>
-    <a href="#reviews">Reviews</a>
-  </div>
   </section>
-
-<section id="about">
+  <br><br>
+  <section>
+    <div class="nav">
+      <a href="#about">About</a>
+      <a href="#outcomes">Outcomes</a>
+      <a href="#modules">Modules</a>
+      <a href="#reviews">Reviews</a>
+    </div>
+  </section>
+  <br>
+  <section id="about">
     <h2>What you'll learn</h2>
     <ul>
-        <li>Python basics: syntax, variables, data types</li>
-        <li>Data structures, loops, functions, OOP</li>
-        <li>NumPy and Pandas for data analysis</li>
-        <li>Web scraping using APIs and BeautifulSoup</li>
+      <li>Python basics: syntax, variables, data types</li>
+      <li>Data structures, loops, functions, OOP</li>
+      <li>NumPy and Pandas for data analysis</li>
+      <li>Web scraping using APIs and BeautifulSoup</li>
     </ul>
-</section>
-<section id="outcomes" >
+  </section>
+  <br>
+  <section id="outcomes">
     <h2>Skills you'll gain</h2>
     <div class="skills">
-        <span>Python Programming</span>
-        <span>Data Analysis</span>
-        <span>Pandas</span>
-        <span>NumPy</span>
-        <span>REST APIs</span>
-        <span>Jupyter Notebook</span>
+      <span>Python Programming</span>
+      <span>Data Analysis</span>
+      <span>Pandas</span>
+      <span>NumPy</span>
+      <span>REST APIs</span>
+      <span>Jupyter Notebook</span>
     </div>
-</section>
+  </section>
+  <br>
 
-<section id="modules" >
+  <section id="modules">
     <h2>Course Modules</h2>
     <div class="accordion">
       <div class="accordion-header" onclick="toggleAccordion(this)">
-         Python Basics
+        Python Basics
       </div>
       <div class="accordion-body">
-       In this module, you will begin by exploring the fundamentals of Python programming. You will identify the users and benefits of Python and understand the diversity and inclusion efforts of the Python community. Next, you will be introduced to the Jupyter Notebook environment, where you will learn how to create, run, and manage code cells, as well as present and shut down notebooks. You will then learn to write your first Python program and work with different data types such as integers, floats, and strings. As you progress, you will use expressions and variables to perform basic operations and practice manipulating strings using indexing, escape sequences, and formatting techniques. Throughout the module, you will apply your learning through hands-on labs and interactive exercises.
+        In this module, you will begin by exploring the fundamentals of Python programming. You will identify the users
+        and benefits of Python and understand the diversity and inclusion efforts of the Python community. Next, you
+        will be introduced to the Jupyter Notebook environment, where you will learn how to create, run, and manage code
+        cells, as well as present and shut down notebooks. You will then learn to write your first Python program and
+        work with different data types such as integers, floats, and strings. As you progress, you will use expressions
+        and variables to perform basic operations and practice manipulating strings using indexing, escape sequences,
+        and formatting techniques. Throughout the module, you will apply your learning through hands-on labs and
+        interactive exercises.
 
 
       </div>
 
       <div class="accordion-header" onclick="toggleAccordion(this)">
-       Python Data Structures
+        Python Data Structures
       </div>
       <div class="accordion-body">
-      In this module, you will explore essential Python data structures including lists, tuples, dictionaries, and sets. Starting with lists and tuples, you will learn how to store and manipulate collections of data using indexing, slicing, and sorting techniques. Through hands-on labs, you’ll practice key operations such as cloning lists and performing tuple manipulations. The module then introduces dictionaries, where data is stored in key-value pairs, and you will gain practical experience in creating and working with them. Finally, you will examine sets, an unordered collection that contains only unique elements, and learn how to perform set operations and logic-based tasks. By the end of this module, you’ll have a strong foundational understanding of these core Python data structures.
+        In this module, you will explore essential Python data structures including lists, tuples, dictionaries, and
+        sets. Starting with lists and tuples, you will learn how to store and manipulate collections of data using
+        indexing, slicing, and sorting techniques. Through hands-on labs, you’ll practice key operations such as cloning
+        lists and performing tuple manipulations. The module then introduces dictionaries, where data is stored in
+        key-value pairs, and you will gain practical experience in creating and working with them. Finally, you will
+        examine sets, an unordered collection that contains only unique elements, and learn how to perform set
+        operations and logic-based tasks. By the end of this module, you’ll have a strong foundational understanding of
+        these core Python data structures.
       </div>
 
       <div class="accordion-header" onclick="toggleAccordion(this)">
-          Python Programming Fundamentals
+        Python Programming Fundamentals
       </div>
       <div class="accordion-body">
-       In this module, you will build a strong foundation in core Python programming concepts essential for applied data science. The module begins with conditions and branching, where you’ll learn to use comparison and logical operators to control the flow of your program. You will then move on to loops, including for and while loops, to iterate over sequences and perform repetitive tasks efficiently. Next, the module covers functions, teaching you how to use built-in Python functions and define your own function to structure and reuse code effectively. You’ll also explore exception handling, a critical concept that enables your program to handle errors gracefully and maintain robustness. Finally, you’ll be introduced to objects and classes, the foundation of object-oriented programming in Python. You’ll learn how to define your own classes and create objects, understand attributes and methods, and see how real-world problems can be modeled using OOP principles.
+        In this module, you will build a strong foundation in core Python programming concepts essential for applied
+        data science. The module begins with conditions and branching, where you’ll learn to use comparison and logical
+        operators to control the flow of your program. You will then move on to loops, including for and while loops, to
+        iterate over sequences and perform repetitive tasks efficiently. Next, the module covers functions, teaching you
+        how to use built-in Python functions and define your own function to structure and reuse code effectively.
+        You’ll also explore exception handling, a critical concept that enables your program to handle errors gracefully
+        and maintain robustness. Finally, you’ll be introduced to objects and classes, the foundation of object-oriented
+        programming in Python. You’ll learn how to define your own classes and create objects, understand attributes and
+        methods, and see how real-world problems can be modeled using OOP principles.
 
 
       </div>
 
       <div class="accordion-header" onclick="toggleAccordion(this)">
-      Working With Data in Python
+        Working With Data in Python
       </div>
       <div class="accordion-body">
-       In this module, you’ll begin by understanding the fundamentals of working with data in Python, focusing on how to read and write data to files in various formats such as text, CSV, and JSON. You’ll learn how to open, read, write, and manipulate files efficiently, which is essential for handling real-world data. As you progress, you’ll explore essential Python libraries for data manipulation and mathematical operations. Key libraries such as Pandas help you work with structured data in tabular formats, whereas NumPy supports numerical operations on arrays and matrices. By the end of the module, you’ll be equipped with the skills to efficiently handle, manipulate, and perform mathematical operations on data using Python, setting a strong foundation for more advanced data analysis techniques.
+        In this module, you’ll begin by understanding the fundamentals of working with data in Python, focusing on how
+        to read and write data to files in various formats such as text, CSV, and JSON. You’ll learn how to open, read,
+        write, and manipulate files efficiently, which is essential for handling real-world data. As you progress,
+        you’ll explore essential Python libraries for data manipulation and mathematical operations. Key libraries such
+        as Pandas help you work with structured data in tabular formats, whereas NumPy supports numerical operations on
+        arrays and matrices. By the end of the module, you’ll be equipped with the skills to efficiently handle,
+        manipulate, and perform mathematical operations on data using Python, setting a strong foundation for more
+        advanced data analysis techniques.
       </div>
       <div class="accordion-header" onclick="toggleAccordion(this)">
-        APIs and Data Collection  
+        APIs and Data Collection
       </div>
       <div class="accordion-body">
-       This module explores various techniques for collecting data, focusing on the use of APIs, web scraping, and working with different file formats. By the end of this module, you will be equipped with the necessary tools and knowledge to collect data from different sources, both structured and unstructured. The module includes hands-on labs, optional content for further exploration, and a final comprehensive exam to test your overall understanding of the course.
+        This module explores various techniques for collecting data, focusing on the use of APIs, web scraping, and
+        working with different file formats. By the end of this module, you will be equipped with the necessary tools
+        and knowledge to collect data from different sources, both structured and unstructured. The module includes
+        hands-on labs, optional content for further exploration, and a final comprehensive exam to test your overall
+        understanding of the course.
       </div>
     </div>
   </section>
- 
- <section id="reviews">
- <div class="rating-summary">
-    <h1>4.7</h1>
-    <p>⭐⭐⭐⭐⭐ (5,242 reviews)</p>
-  </div>
+  <br>
 
-  <div class="rating-bars">
-    <div>5 stars <span class="bar"><span style="width:82%"></span></span></div>
-    <div>4 stars <span class="bar"><span style="width:12%"></span></span></div>
-    <div>3 stars <span class="bar"><span style="width:2%"></span></span></div>
-    <div>2 stars <span class="bar"><span style="width:1%"></span></span></div>
-    <div>1 star <span class="bar"><span style="width:0.59%"></span></span></div>
-  </div>
-</section>
+  <section id="reviews">
+    <div class="rating-summary">
+      <h1>4.7</h1>
+      <p>⭐⭐⭐⭐⭐ (5,242 reviews)</p>
+    </div>
 
-    <script src="..\js\python.js"></script>
+    <div class="rating-bars">
+      <div>5 stars <span class="bar"><span style="width:82%"></span></span></div>
+      <div>4 stars <span class="bar"><span style="width:12%"></span></span></div>
+      <div>3 stars <span class="bar"><span style="width:2%"></span></span></div>
+      <div>2 stars <span class="bar"><span style="width:1%"></span></span></div>
+      <div>1 star <span class="bar"><span style="width:0.59%"></span></span></div>
+    </div>
+  </section>
+<footer class="footer">
+        <div class = "footer-container">
+            <div class = "footer-section">
+                <h2>SkillSprout</h2>
+                <p>SkillSprout is your go-to platform for learning new skills online, 
+                    completely free. Explore courses, manage your to-dos, take notes,
+                    and grow your knowledge every day. We are committed to making learning simple,
+                    accessible, and fun for everyone.
+            </p>
+            <h3>Follow us</h3>
+            <a href="https://www.instagram.com"><img src ="../images/instagram.png" class="social-logo"></a>
+              <a href="https://www.facebook.com"><img src ="../images/facebook.png" class="social-logo"></a>
+                <a href="https://www.youtube.com"><img src ="../images/youtube.png" class="social-logo"></a>
+                 <a href="https://www.x.com"><img src ="../images/twitter.png" class="social-logo"></a>
+        </div>
+           
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="to-do.html">To-Do-list</a></li>
+                    <li><a href="Notes.html">Notes</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+            <h3>Contact Us</h3>
+           <p>Email: <a href="mailto:support@skillsprout.com">support@skillsprout.com</a></p>
+            <p>Phone: <a href="tel:+911234567890">+91 12345 67890</a></p>
+         </div>
+         </div>
+             <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.1160995979!2d72.7410998630264!3d19.08219783884974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63a344b4a71%3A0xdeb6aa87e1cd93a1!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1704728542943!5m2!1sen!2sin"
+                width="100%" height="150" style="border:0; border-radius:10px;" allowfullscreen="">
+            </iframe>
+        </div>
+        </div>
+        <div class="footer-bottom">
+        <p> 2026 SkillSprout. All rights reserved.</p>
+        </div>
+    </footer>
+
+  <script src="..\js\python.js"></script>
 </body>
+
 </html>

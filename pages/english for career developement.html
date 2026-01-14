@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>English for carrer developement</title>
   <link rel="stylesheet" href="../css/english for career developement.css">
 </head>
-<body>
-<section class="hero">
-  <div class="hero-text">
-    <h1>English for Career Developement</h1>
-    <p>Instructor: <strong>xyz</strong></p>
-    <button class="btn-primary">Enroll for Free</button>
-  </div>
-</section>
 
-<div class="course-info-container">
+<body>
+   <div class="app-title">
+    <img class="logo" src="../images/logo.png"/>
+    <h2 class="title">SkillSprout</h2>
+    <div class="navbar">
+    <a class="nav-item" href="..\index.html">Home</a>
+    <a class="nav-item"  href="course.html">Courses</a>
+    <a class="nav-item" href="todo.html">To-Do</a>
+    <a class="nav-item" href="notes.html">Notes</a>
+    <button class="btn" >Log in</button>
+    </div>
+    <img src="../images/hamburger.png" class="hamburger-icon" onclick="toggleMenu()">
+    </div>
+
+  <section class="main">
+    <div class="main-text">
+      <h1>English for Career Developement</h1><br>
+      <p>Instructor: <strong>xyz</strong></p><br>
+      <button class="btn-primary">Enroll for Free</button>
+    </div>
+  </section>
+  <br><br>
+
+  <div class="course-info-container">
     <div class="info-box">
-      <h3>  5 modules</h3>
+      <h3> 5 modules</h3>
       <p>Gain insight into a topic and learn the fundamentals.</p>
     </div>
 
@@ -34,18 +50,18 @@
       <h3>👍 99%</h3>
       <p>Most learners liked this course</p>
     </div>
-    </div>
-<br><br><br><br>
-<section>
-<div class="nav">
-    <a href="#about">About</a>
-    <a href="#outcomes">Outcomes</a>
-    <a href="#modules">Modules</a>
-    <a href="#reviews">Reviews</a>
   </div>
+  <br><br>
+  <section>
+    <div class="nav">
+      <a href="#about">About</a>
+      <a href="#outcomes">Outcomes</a>
+      <a href="#modules">Modules</a>
+      <a href="#reviews">Reviews</a>
+    </div>
   </section>
-<br><br><br>
-<section id="about">
+  <br>
+  <section id="about">
     <h2>What you'll learn</h2>
     <ul>
       <li>Define what digital marketing is and how it applies to modern business </li>
@@ -54,8 +70,8 @@
       <li>Use digital marketing tools like Adobe Express to create and manage content</li>
     </ul>
   </section>
-<br><br><br>
-  <section id="outcomes" >
+  <br>
+  <section id="outcomes">
     <h2>Skills you'll gain</h2>
     <div class="skills">
       <span>English Language</span>
@@ -64,46 +80,44 @@
       <span>Business communication</span>
       <span>Professional networking</span>
       <span>Social skills</span>
-       <span>Interviewing Skills</span>
-        <span>Job analysis</span>
-      </div>
+      <span>Interviewing Skills</span>
+      <span>Job analysis</span>
+    </div>
   </section>
-<br><br><br>
-  
-  <section id="modules" >
+  <br>
+
+  <section id="modules">
     <h2>Course Modules</h2>
     <div class="accordion">
       <div class="accordion-header" onclick="toggleAccordion(this)">
-      Entering the Job Market
+        Entering the Job Market
       </div>
       <div class="accordion-body">
-       In this unit you will learn about the steps in the job search process
-
-
+        In this unit you will learn about the steps in the job search process
       </div>
-    
+
 
       <div class="accordion-header" onclick="toggleAccordion(this)">
-     Resumes
+        Resumes
       </div>
       <div class="accordion-body">
-       In this unit, you will learn how to describe yourself and your experiences in a résumé. The unit will also help you build your job-related vocabulary.
+        In this unit, you will learn how to describe yourself and your experiences in a résumé. The unit will also help
+        you build your job-related vocabulary.
       </div>
 
       <div class="accordion-header" onclick="toggleAccordion(this)">
         Writing a Cover Letter
       </div>
       <div class="accordion-body">
-       This unit focuses on another important document for job-seekers: the cover letter. You will learn how to write a clear cover letter that tells employers why you are the right person for the job.
-
-
+        This unit focuses on another important document for job-seekers: the cover letter. You will learn how to write a
+        clear cover letter that tells employers why you are the right person for the job.
       </div>
 
       <div class="accordion-header" onclick="toggleAccordion(this)">
         Networking
       </div>
       <div class="accordion-body">
-       This unit will teach job-seekers language for meeting new people, making small talk, and describing.
+        This unit will teach job-seekers language for meeting new people, making small talk, and describing.
 
       </div>
 
@@ -111,33 +125,76 @@
         Interviewing For a Job
       </div>
       <div class="accordion-body">
-       This unit is about the question-and-answer process of job interviews, and will help prepare learners to present themselves well in interviews
+        This unit is about the question-and-answer process of job interviews, and will help prepare learners to present
+        themselves well in interviews
       </div>
-      
+
     </div>
   </section>
 
-  <br><br><br>                                                                                                                                          
-  <section  id="reviews">
-  <h2>Learner Reviews</h2>
+  <br>
+  <section id="reviews">
+    <h2>Learner Reviews</h2>
 
-  <div class="rating-summary">
-    <h1>4.7</h1>
-    <p>⭐⭐⭐⭐⭐ (16.893 reviews)</p>
-  </div>
+    <div class="rating-summary">
+      <h1>4.7</h1>
+      <p>⭐⭐⭐⭐⭐ (16.893 reviews)</p>
+    </div>
 
-  <div class="rating-bars">
-    <div>5 stars <span class="bar"><span style="width:85%"></span></span></div>
-    <div>4 stars <span class="bar"><span style="width:11%"></span></span></div>
-    <div>3 stars <span class="bar"><span style="width:1%"></span></span></div>
-    <div>2 stars <span class="bar"><span style="width:0.2%"></span></span></div>
-    <div>1 star <span class="bar"><span style="width:0.41%"></span></span></div>
-  </div>
+    <div class="rating-bars">
+      <div>5 stars <span class="bar"><span style="width:85%"></span></span></div>
+      <div>4 stars <span class="bar"><span style="width:11%"></span></span></div>
+      <div>3 stars <span class="bar"><span style="width:1%"></span></span></div>
+      <div>2 stars <span class="bar"><span style="width:0.2%"></span></span></div>
+      <div>1 star <span class="bar"><span style="width:0.41%"></span></span></div>
+    </div>
 
-</section>
-    
+  </section>
+<footer class="footer">
+        <div class = "footer-container">
+            <div class = "footer-section">
+                <h2>SkillSprout</h2>
+                <p>SkillSprout is your go-to platform for learning new skills online, 
+                    completely free. Explore courses, manage your to-dos, take notes,
+                    and grow your knowledge every day. We are committed to making learning simple,
+                    accessible, and fun for everyone.
+            </p>
+            <h3>Follow us</h3>
+            <a href="https://www.instagram.com"><img src ="../images/instagram.png" class="social-logo"></a>
+              <a href="https://www.facebook.com"><img src ="../images/facebook.png" class="social-logo"></a>
+                <a href="https://www.youtube.com"><img src ="../images/youtube.png" class="social-logo"></a>
+                 <a href="https://www.x.com"><img src ="../images/twitter.png" class="social-logo"></a>
+        </div>
+           
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="to-do.html">To-Do-list</a></li>
+                    <li><a href="Notes.html">Notes</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+            <h3>Contact Us</h3>
+           <p>Email: <a href="mailto:support@skillsprout.com">support@skillsprout.com</a></p>
+            <p>Phone: <a href="tel:+911234567890">+91 12345 67890</a></p>
+         </div>
+         </div>
+             <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.1160995979!2d72.7410998630264!3d19.08219783884974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63a344b4a71%3A0xdeb6aa87e1cd93a1!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1704728542943!5m2!1sen!2sin"
+                width="100%" height="150" style="border:0; border-radius:10px;" allowfullscreen="">
+            </iframe>
+        </div>
+        </div>
+        <div class="footer-bottom">
+        <p> 2026 SkillSprout. All rights reserved.</p>
+        </div>
+    </footer>
 
 
-<script src="../js/english for career developement.js"></script>
+
+  <script src="../js/english for career developement.js"></script>
 </body>
+
 </html>
