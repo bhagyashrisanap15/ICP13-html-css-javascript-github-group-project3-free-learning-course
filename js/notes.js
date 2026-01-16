@@ -66,11 +66,13 @@ function deleteNote(index) {
 searchBar.addEventListener("input", function () {
     let inputVal = searchBar.value.toLowerCase();
     let noteCards = document.getElementsByClassName("note-card");
+
     for (let i = 0; i < noteCards.length; i++) {
-        let noteTitle = noteCards[i].getElementsByClassName("note-title")[0].innerText.toLowerCase();
-        let noteDesc = noteCards[i].getElementsByClassName("note-desc")[0].innerText.toLowerCase();
+        let noteTitle = noteCards[i].querySelector(".note-title").innerText.toLowerCase();
+        let noteDesc = noteCards[i].querySelector(".note-desc").innerText.toLowerCase();
+
         if (noteTitle.includes(inputVal) || noteDesc.includes(inputVal)) {
-            noteCards[i].style.display = "block";
+            noteCards[i].style.display = "";   // FIXED
         } else {
             noteCards[i].style.display = "none";
         }
