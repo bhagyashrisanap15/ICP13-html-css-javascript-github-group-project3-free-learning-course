@@ -14,7 +14,7 @@
 
     body {
       min-height: 100vh;
-    
+    background-color:  #ffe4cc;
     }
 
     
@@ -142,7 +142,7 @@
     }
 
     .footer {
-      background-color: #ffe4cc;
+      background-color: #ffffff;
       border-top: 2px solid #d9d9d9;
       font-family: "Times New Roman", Times, serif;
       padding: 40px 20px 20px;
@@ -194,8 +194,22 @@
       font-size: 14px;
       color: #666;
     }
+    @media(max-width:768px){
+      .left-panel{
+        display: none;
+      }
+      .right-panel{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+      }
+      .main-container{
+        flex-direction: column;
+      }
 
-    @media (max-width: 900px) {
+      
+    }
+        @media (max-width: 900px) {
       .main-container {
         flex-direction: column;
         width: 90%;
@@ -241,10 +255,10 @@
     <h2 class="title">SkillSprout</h2>
 
     <div class="navbar">
-      <a class="nav-item" href="index.html">Home</a>
-      <a class="nav-item" href="courses.html">Courses</a>
-      <a class="nav-item" href="todo.html">To-Do</a>
-      <a class="nav-item" href="notes.html">Notes</a>
+      <a class="nav-item" href="../index.html">Home</a>
+      <a class="nav-item" href="./course.html">Courses</a>
+      <a class="nav-item" href="./todo.html">To-Do</a>
+      <a class="nav-item" href="./notes.html">Notes</a>
       <a href="login.html"><button class="btn">Log in</button></a>
     </div>
 

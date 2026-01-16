@@ -14,7 +14,7 @@
 
     body {
       min-height: 100vh;
-      background: linear-gradient(135deg, #ddb892, #ede0d4);
+      background:  #ffe4cc;
     }
 
    
@@ -155,7 +155,7 @@
 
    
     .footer {
-      background-color: #ffe4cc;
+      background-color:white;
       border-top: 2px solid #d9d9d9;
       font-family: "Times New Roman", Times, serif;
       padding: 40px 20px 20px;
@@ -264,6 +264,19 @@
         justify-content: center;
       }
     }
+    @media(max-width:768px){
+      .left-panel{
+        display: none;
+      }
+      .right-panel{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+      }
+      .main-container{
+        flex-direction: column;
+      }
+    }
   </style>
 </head>
 
@@ -275,11 +288,11 @@
     <h2 class="title">SkillSprout</h2>
 
     <div class="navbar">
-      <a class="nav-item" href="index.html">Home</a>
-      <a class="nav-item" href="courses.html">Courses</a>
-      <a class="nav-item" href="todo.html">To-Do</a>
-      <a class="nav-item" href="notes.html">Notes</a>
-      <a href="login.html"><button class="btn">Log in</button></a>
+      <a class="nav-item" href="../index.html">Home</a>
+      <a class="nav-item" href="./course.html">Courses</a>
+      <a class="nav-item" href="./todo.html">To-Do</a>
+      <a class="nav-item" href="./notes.html">Notes</a>
+      <a href="./login.html"><button class="btn">Log in</button></a>
     </div>
 
     <img src="../images/hamburger.png" class="hamburger-icon" onclick="toggleMenu()" />
