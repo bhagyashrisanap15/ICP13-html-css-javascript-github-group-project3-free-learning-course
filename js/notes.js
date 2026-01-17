@@ -1,8 +1,8 @@
-let titleInput = document.getElementById("noteTitle");
-let descInput = document.getElementById("noteDesc");
-let addBtn = document.getElementById("addNoteBtn");
-let notesContainer = document.getElementById("notesContainer");
-let searchBar = document.getElementById("searchBar");
+const titleInput = document.getElementById("noteTitle");
+const descInput = document.getElementById("noteDesc");
+const addBtn = document.getElementById("addNoteBtn");
+const notesContainer = document.getElementById("notesContainer");
+const searchBar = document.getElementById("searchInput");
 showNotes();
 addBtn.addEventListener("click", function () {
     let title = titleInput.value;
