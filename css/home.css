@@ -323,10 +323,10 @@ body{
     font-size: 10px;
 }
 .theme-toggle-light{
-    border: 1px solid #fff;
+    border: 1px solid #000;
 }
 .theme-toggle-dark{
-    border: 1px solid #000;
+    border: 1px solid #fff;
 }
 @media (max-width: 500px) {
     .image-section {
